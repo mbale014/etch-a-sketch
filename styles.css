@@ -6,6 +6,15 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-image: url(./img/bg.jpg);
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-position: center center; /* Centers the image */
+    background-size: cover; /* Scales the image to cover the entire body */
+    background-attachment: fixed
+}
+
+h1 {
+    color: #FFFFFF;
 }
 
 .nav-menu {
@@ -87,10 +96,11 @@ button:focus {
 }
 
 .footer {
-    background-color: #f4f4f4;
+    border-bottom: 2px solid #f4f4f4;
     flex:1;
     margin-top: 90px;
     padding: 10px;
     width: 650px;
+    color: #FFFFFF;
     text-align: center;
 }
