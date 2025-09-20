@@ -14,7 +14,9 @@ body {
 }
 
 h1 {
-    color: #FFFFFF;
+    font-family: 'MightySouly';
+    font-size: 3em;
+    color: #ffca00
 }
 
 .nav-menu {
@@ -32,7 +34,7 @@ input {
 }
 
 #rgbLabel {
-    color: rgb(194, 86, 185)
+    color: yellow;
 }
 
 #myColorPicker {
@@ -71,10 +73,9 @@ button:focus {
   color: rgba(0, 0, 0, 0.65);
 }
 
-
-
 .container  {
-    border: 2px solid black;
+    border: 3px solid #ff8228;
+    border-radius:4px;
     font-size: 12px;
     width: 650px;
     height: 650px;
@@ -83,11 +84,12 @@ button:focus {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .grid-square {
     box-sizing: border-box;
-    border:1px solid rgb(148, 63, 63);
+    border:1px solid #e2e2e2;
     background-color: #f4f4f4;
 }
 
@@ -103,4 +105,10 @@ button:focus {
     width: 650px;
     color: #FFFFFF;
     text-align: center;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'MightySouly';
+    src: url('./fonts/MightySouly.ttf') format('truetype');
 }
