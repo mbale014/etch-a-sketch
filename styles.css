@@ -74,6 +74,7 @@ button:focus {
 }
 
 .container  {
+    background-color: #e2e2e2;
     border: 3px solid #ff8228;
     border-radius:4px;
     font-size: 12px;
